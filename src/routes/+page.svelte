@@ -1,7 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import Tailwind from './Tailwind.svelte';
-	import img from '$lib/assets/vbook.png';
+	import img from '$lib/assets/vbook.jpg';
 	import gif from '$lib/assets/gif_virtual.gif';
 	import img1 from '$lib/assets/s08.jpg';
 </script>
@@ -20,7 +20,7 @@
 				</svg>
 			</a>
 			<a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-				Speak to Sales
+				Order now
 			</a>
 		</div>
 		<div class="hidden lg:mt-0 lg:col-span-1 lg:flex">
