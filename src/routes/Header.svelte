@@ -1,15 +1,21 @@
 <script>
 	import Tailwind from './Tailwind.svelte';
-	import logopic from '$lib/assets/Virtual.png';
+	import logo from '$lib/assets/Virtual.png';
 </script>
 
 <Tailwind />
 
 <header>
-	<nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+	<nav class="bg-white border-gray-200 px-20 lg:px-20 py-2.5 dark:bg-gray-800">
 		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-				<img class="mr-3 h-6 sm:h-9" src={logopic}	alt="Logo" >
-				<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"> Vitual Bookstore</span>
+				<img
+					src={logo}
+					class="mr-10 h-10 sm:h-18"
+					alt="Logo"
+				/>
+				<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+					>Virtual Bookstore</span
+				>
 			<div class="flex items-center lg:order-2">
 				<a
 					href="#"
@@ -115,5 +121,8 @@
         <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
     </div>
 </form>
+
+
+
 
 </header>
