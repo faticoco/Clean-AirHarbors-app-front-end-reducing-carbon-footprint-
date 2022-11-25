@@ -16,11 +16,12 @@
 		"@playwright/test": "1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"autoprefixer": "^10.4.13",
+		"autoprefixer": "^10.4.7",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"postcss": "^8.4.19",
+		"postcss": "^8.4.14",
+		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.44.0",
@@ -32,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"daisyui": "^2.42.1",
 		"flowbite": "^1.5.3"
 	}
 }
