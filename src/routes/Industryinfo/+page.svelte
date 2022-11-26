@@ -1,4 +1,4 @@
-ï»¿<script>
+<script>
 	import Header from '../Header.svelte';
 	import Footer from '../Footer.svelte';
 	import Hero from '../Hero.svelte';
@@ -25,7 +25,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 /* RESET RULES
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   --white: #afafaf;
   --red: #e31b23;
@@ -99,7 +99,7 @@ body {
 
 
 /* FORM ELEMENTS
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form h1 {
   margin-bottom: 1.5rem;
 }
@@ -170,7 +170,7 @@ body {
 
 
 /* FORM BTNS
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form .required-msg {
   display: none;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
@@ -213,7 +213,7 @@ body {
 
 
 /* CUSTOM CHECKBOX
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form input[type="checkbox"] {
   position: absolute;
   left: -9999px;
@@ -256,7 +256,7 @@ body {
 
 
 /* FOOTER
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
   font-size: 1rem;
   text-align: right;
@@ -273,7 +273,7 @@ footer span {
 
 
 /* MQ
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 600px) {
   .my-form .grid {
     display: grid;
@@ -317,34 +317,27 @@ footer span {
 
 <div class="body" >
 	<h1 class="text-5xl font-extrabold dark:text-black" style="color:black">
-		Contact Us
+		Industry Information
 	</h1>
 
 </div>
 
-
+<br/>
+<br/>
 
 <form class="my-form">
   <div class="container">
     <h1>Get in touch!</h1>
     <ul>
-      <li>
-        <select>
-          <option selected disabled>-- Please choose an option --</option>
-          <option>Reduction Plan query</option>
-            <option>Subscription Plan query</option> 
-          <option>Other Queries</option>     
-        </select>
-      </li>
+     
       <li>
         <div class="grid grid-2">
           <input type="text" placeholder="Name" required>  
-          <input type="text" placeholder="Surname" required>
+          <input type="text" placeholder="Location" required>
         </div>
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="email" placeholder="Email" required>  
           <input type="tel" placeholder="Phone">
         </div>
       </li>    
@@ -353,27 +346,22 @@ footer span {
       </li>   
       <li>
         <input type="checkbox" id="terms">
-        <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+        <label for="terms">I am sure i want to <a href="">send warning.</a></label>
       </li>  
       <li>
         <div class="grid grid-3">
           <div class="required-msg">REQUIRED FIELDS</div>
-          <button class="btn-grid bg-green-500" type="submit" >
+          <button class="btn-grid bg-green-500 " type="submit" >
             <span class="back">
             </span>
-            <span class="front">SUBMIT</span>
+            <span class="front" >Send Warning</span>
           </button>
-          <button class=" bg-green-500" type="reset" >
-            <span class="back">
-            
-            </span>
-            <span class="front">RESET</span>
-          </button> 
+          
         </div>
       </li>    
     </ul>
   </div>
-</form>btn-grid
+</form>
 
 
 

@@ -12,12 +12,11 @@
 	<div class="hero-content flex-col lg:flex-row">
 		<img src="{subscription}" class="max-w-sm h-100 rounded-lg shadow-2xl" />
 		<div >
-			<h1 class="text-5xl font-bold">Box Office News!</h1>
+			<h1 class="text-5xl font-bold">Subscription Plans</h1>
 			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
+				Subscribe to our premium subscription to get the maximum benefits. Get monthly rewards on completing Carbon Reduction tasks.
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+			<button class="btn bg-green-500">Get Started</button>
 		</div>
 	</div>
 </div>
@@ -38,7 +37,7 @@
 				<li>Cannot access graphs</li>
 				<li>Online help and support</li>
 			</ul>
-			<a href="#" class="cta_btn btn-success">Buy Now</a>
+			<a href="#" class="cta_btn bg-green-500">Buy Now</a>
 		</div>
 		<div class="card">
 			<h2 class="card_title">Basic</h2>
@@ -50,7 +49,7 @@
 				<li>Online help and support</li>
 				<li>Get carbon Info of any area</li>
 			</ul>
-			<a href="#" class="cta_btn btn-success">Buy Now</a>
+			<a href="#" class="cta_btn bg-green-500">Buy Now</a>
 		</div>
 		<div class="card">
 			<h2 class="card_title">Premium</h2>
@@ -62,7 +61,7 @@
 				<li>Get carbon Info of any area</li>
 				<li>Get limited day to day offers</li>
 			</ul>
-			<a href="#" class="cta_btn btn-success">Buy Now</a>
+			<a href="#" class="cta_btn bg-green-500">Buy Now</a>
 		</div>
 	</div>
 </div>
@@ -145,7 +144,7 @@
 		width: 100%;
 		display: inline-block;
 		text-align: center;
-		background: green;
+		
 		border-radius: 29px;
 		padding: 20px 0;
 		color: white;

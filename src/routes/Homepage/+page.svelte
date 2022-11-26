@@ -24,7 +24,7 @@
 				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
 				quasi. In deleniti eaque aut repudiandae et a id nisi.
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+			<button class="btn bg-green-500">Get Started</button>
 		</div>
 	</div>
 </div>
@@ -62,7 +62,7 @@
 				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
 				quasi. In deleniti eaque aut repudiandae et a id nisi.
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+			<button class="btn bg-green-500">Get Started</button>
 		</div>
 	</div>
 </div>
@@ -82,7 +82,7 @@
 			Made to remind you of your daily routine tasks <br />
 			to reduce your carbon footprint 
 			</p>
-			<button class="btn btn-primary" >Preview</button>
+			<button class="btn bg-green-500" >Preview</button>
 		</div>
 	</div>
 </div>

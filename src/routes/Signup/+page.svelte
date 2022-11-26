@@ -1,5 +1,5 @@
 <script>
-	import Tailwind from './Tailwind.svelte';
+	import Tailwind from '../Tailwind.svelte';
 	import login from '$lib/assets/login.jpg';
 </script>
 
@@ -10,8 +10,8 @@
 	<div class="h-screen w-1/2 bg-white">
 		<div class="mx-auto flex h-full w-2/3 flex-col justify-center text-black xl:w-1/2">
 			<div>
-				<p class="text-2xl">Login|</p>
-				<p>please login to continue|</p>
+				<p class="text-2xl">Sign Up|</p>
+				<p>please Signup to continue|</p>
 			</div>
 			<div class="my-6">
 				<button
@@ -22,7 +22,7 @@
 			</div>
 			<div>
 				<fieldset class="border-t border-solid border-gray-600">
-					<legend class="mx-auto px-2 text-center text-sm">Or login via our secure system</legend>
+					<legend class="mx-auto px-2 text-center text-sm">Or sign up via our secure system</legend>
 				</fieldset>
 			</div>
 			<div class="mt-10">
@@ -36,6 +36,18 @@
 							placeholder="mail@user.com"
 						/>
 					</div>
+
+					<div>
+						<label class="mb-2.5 block font-extrabold" for="email">Email</label>
+						<input
+							type="Phone number"
+							id="Phone number"
+							class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-30"
+							placeholder="03xx-xxxxxxx"
+						/>
+					</div>
+
+
 					<div class="mt-4">
 						<label class="mb-2.5 block font-extrabold" for="email">Password</label>
 						<input
@@ -57,13 +69,13 @@
 						</div>
 					</div>
 					<div class="my-10">
-						<button class="w-full rounded-full bg-green-500 p-5 hover:bg-green-800">Login</button>
+						<button class="w-full rounded-full bg-green-500 p-5 hover:bg-green-800">Sing Up</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-	<div class="h-screen w-1/2 bg-blue-600">
+	<div class="h-screen w-1/2 bg-white-600">
 		<img
 			src={login} 
 			class="h-full w-full object-fill"
