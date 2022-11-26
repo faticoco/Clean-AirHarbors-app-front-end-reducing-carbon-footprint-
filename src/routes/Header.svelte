@@ -13,6 +13,7 @@
 	padding: 1rem;
 	border: 2px red;
 	}
+
 </style>
 
 <header  >
@@ -53,4 +54,5 @@
             </div>
         </div>
     </nav>
+   
 </header>

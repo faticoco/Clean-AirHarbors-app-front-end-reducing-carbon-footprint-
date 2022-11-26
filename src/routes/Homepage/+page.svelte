@@ -16,7 +16,7 @@
 	</ul>
 </div>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-white">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Clean Hair Harbour</h1>
@@ -53,7 +53,7 @@
 	</div>
 </div>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-white">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<img src={goals} class="max-w-sm rounded-lg shadow-2xl" />
 		<div>
@@ -73,7 +73,7 @@
 
 
 
-<div class="hero ">
+<div class="hero  bg-white" >
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
 			<h1 class="mb-5 text-5xl font-bold" style="color:black">Reminder Preview</h1>
