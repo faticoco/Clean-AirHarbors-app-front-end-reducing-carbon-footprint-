@@ -7,6 +7,7 @@
 	import carousel2 from '$lib/assets/carousel2.png';
 	import carousel3 from '$lib/assets/carousel3.png';
 	import goals from '$lib/assets/goals.png';
+	import main from '$lib/assets/main_img.jpg';
 </script>
 
 <Header />
@@ -16,33 +17,34 @@
     </ul>
 </div>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-white">
     <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold">Clean Hair Harbour</h1>
-        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-        <button class="btn btn-primary">Get Started</button>
+      <div class="max-w-xl">
+	  <img src="{main}" class="object-scale-down h-500 w-full" />
+				<h1 class="text-5xl font-bold">Clean Hair Harbor</h1>
+				<p class="py-6">Clean Air Harbors. Make your environment clean</p>
+				<button class="btn btn-primary">Get Started</button>
       </div>
     </div>
   </div>
 
-<div class="carousel w-full">
+<div class="carousel w-xl">
 	<div id="slide1" class="carousel-item relative w-full">
-		<img src="{carousel1}"  class="object-cover h-110 w-full" />
+		<img src="{carousel1}"  class="object-cover h-100 w-full" />
 		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 			<a href="#slide4" class="btn btn-circle">❮</a>
 			<a href="#slide2" class="btn btn-circle">❯</a>
 		</div>
 	</div>
 	<div id="slide2" class="carousel-item relative w-full">
-		<img src="{carousel2}"class="object-cover h-110 w-full" />
+		<img src="{carousel2}"class="object-cover h-100 w-full" />
 		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 			<a href="#slide1" class="btn btn-circle">❮</a>
 			<a href="#slide3" class="btn btn-circle">❯</a>
 		</div>
 	</div>
 	<div id="slide3" class="carousel-item relative w-full">
-		<img src="{carousel3}" class="object-scale-down h-110 w-full" />
+		<img src="{carousel3}" class="object-scale-down h-100 w-full" />
 		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 			<a href="#slide2" class="btn btn-circle">❮</a>
 			<a href="#slide4" class="btn btn-circle">❯</a>
@@ -52,7 +54,7 @@
 
 
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen  bg-white">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<img src={goals} class="max-w-sm rounded-lg shadow-2xl" />
 		<div>
