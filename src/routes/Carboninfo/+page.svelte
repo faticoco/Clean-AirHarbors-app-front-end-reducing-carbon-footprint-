@@ -256,15 +256,9 @@
 			<span class="text-sm font-medium text-green-600 dark:text-green-500">70%</span>
 
 		</form>
-		s
+		<br/>
 
-			<!--Google map-->
-<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" allowfullscreen></iframe>
-</div>
-
-<!--Google Maps-->
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="915" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:915px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:915px;}</style></div></div><!--Google Maps-->
 
 	</div >
 
