@@ -91,6 +91,11 @@
 			</label>
 		</li>
 	</ul>
+
+	<div class="my-10">
+		<button class="w-full rounded-full bg-green-500 p-5 hover:bg-green-800 " style="color:white">Submit</button>
+	</div>
+	
 </div>
 
 <div class="ContactCards">

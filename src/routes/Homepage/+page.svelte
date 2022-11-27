@@ -7,6 +7,7 @@
 	import carousel2 from '$lib/assets/carousel2.png';
 	import carousel3 from '$lib/assets/carousel3.png';
 	import goals from '$lib/assets/goals.png';
+	import air from '$lib/assets/cleanair.png';
 </script>
 
 <Header />
@@ -16,13 +17,13 @@
 	</ul>
 </div>
 
-<div class="hero min-h-screen bg-white">
-	<div class="hero-content text-center">
-		<div class="max-w-md">
+<div class="hero min-h-screen bg-white"  style="src:air;">
+<div class="hero-content text-center">
+		<div class="max-w-md ">
 			<h1 class="text-5xl font-bold">Clean Hair Harbour</h1>
 			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
+				Clean Air Harbors. Providing the opportunity to make the environment cleaner, greener and a healthier environment to live in. Join us in this journey now! 
+				
 			</p>
 			<button class="btn bg-green-500">Get Started</button>
 		</div>

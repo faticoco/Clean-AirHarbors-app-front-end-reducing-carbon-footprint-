@@ -1,6 +1,6 @@
 <script>
 	import Tailwind from './Tailwind.svelte';
-	import login from '$lib/assets/login.jpg';
+	import login from '$lib/assets/pexels-anna-shvets-5029853.jpg';
 </script>
 
 <Tailwind />
@@ -57,16 +57,16 @@
 						</div>
 					</div>
 					<div class="my-10">
-						<button class="w-full rounded-full bg-green-500 p-5 hover:bg-green-800">Login</button>
+						<button class="w-full rounded-full bg-black p-5 hover:bg-green-800 " style="color:white">Login</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-	<div class="h-screen w-1/2 bg-blue-600">
+	<div class="h-screen w-1/2 bg-white">
 		<img
 			src={login} 
-			class="h-full w-full object-fill"
+			class="h-full w-full object-scale-down"
 		/>
 	</div>
 </div>
