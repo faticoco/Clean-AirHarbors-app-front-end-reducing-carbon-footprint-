@@ -22,7 +22,7 @@
 
 	.slider{
 	margin: 10px;
-	padding: 20px;
+	padding: 15px;
 	font-size: 30px;
 	}
 
@@ -33,10 +33,10 @@
 	.graph
 	{
 
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 60px;
-	padding: 40px;
+	padding: 20px;
 	font-size: 20px;
 	}
 
@@ -189,7 +189,9 @@
 							<svg aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 								<path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
 							</svg>
-							<span class="flex-1 ml-3 whitespace-nowrap">Profile</span>
+							<span class="flex-1 ml-3 whitespace-nowrap">
+								<a href="http://127.0.0.1:5173/Profile"> Profile</a>
+							</span>
 							<span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
 						</a>
 					</li>
@@ -199,7 +201,9 @@
 								<path d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z"></path>
 								<path d="M3 5a2 2 0 012-2h1a1 1 0 010 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 110-2h1a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"></path>
 							</svg>
-							<span class="flex-1 ml-3 whitespace-nowrap">Rewards</span>
+							<span class="flex-1 ml-3 whitespace-nowrap">
+								<a href="http://127.0.0.1:5173/Rewards"> Rewards</a>
+							</span>
 							<span class="inline-flex justify-center items-center p-3 ml-3 w-3 h-3 text-sm font-medium text-blue-600 bg-blue-200 rounded-full dark:bg-blue-900 dark:text-blue-200">3</span>
 						</a>
 					</li>
@@ -209,7 +213,8 @@
 							<svg aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z" clip-rule="evenodd"></path>
 							</svg>
-							<span class="flex-1 ml-3 whitespace-nowrap">Sign up</span>
+							<span class="flex-1 ml-3 whitespace-nowrap">
+								<a href="http://127.0.0.1:5173/Signup?#">Sign up</a></span>
 						</a>
 					</li>
 					<br/><br/><br/><br/>
@@ -258,7 +263,7 @@
 		</form>
 		<br/>
 
-		<div class="mapouter"><div class="gmap_canvas"><iframe width="915" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:915px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:915px;}</style></div></div><!--Google Maps-->
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:915px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:915px;}</style></div></div><!--Google Maps-->
 
 	</div >
 
@@ -266,7 +271,7 @@
 
 
 		<aside class="w-40s" aria-label="Sidebar">
-		<br/> <br/>
+		<br/> 
 			<div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
 				<ul class="space-y-2">
 					
@@ -275,7 +280,8 @@
 							<svg aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 								<path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
 							</svg>
-							<span class="flex-1 ml-3 whitespace-nowrap">Graph</span>
+							<span class="flex-1 ml-3 whitespace-nowrap">
+								<a href="http://127.0.0.1:5173/fatima#">Graph</a></span>
 							<span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
 						</a>
 					</li>

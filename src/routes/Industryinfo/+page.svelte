@@ -5,10 +5,11 @@
 	import Tailwind from '../Tailwind.svelte';
 	import reduction from '$lib/assets/reduction_plan.jpg';
 </script>
+<Tailwind />
 
 <style>
 
-.ContactCards {
+	.ContactCards {
 	background-color: white;
 	display: inline-blocks;
 	margin-top: 1rem;
@@ -16,298 +17,6 @@
 	border: 2px red;
 	}
 
-	.body{
-	background-color:white;
-	text-align: center;
-	}
-
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-
-/* RESET RULES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-:root {
-  --white: #afafaf;
-  --red: #e31b23;
-  --bodyColor: #292a2b;
-  --borderFormEls: hsl(0, 0%, 10%);
-  --bgFormEls: hsl(0, 0%, 14%);
-  --bgFormElsFocus: hsl(0, 7%, 20%);
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
-}
-
-a {
-  color: inherit;
-}
-
-input,
-select,
-textarea,
-button {
-  font-family: inherit;
-  font-size: 100%;
-}
-
-button,
-label {
-  cursor: pointer;
-}
-
-select {
-  appearance: none;
-}
-
-/* Remove native arrow on IE */
-select::-ms-expand {
-  display: none;
-}
-
-/*Remove dotted outline from selected option on Firefox*/
-/*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
-/*We use !important to override the color set for the select on line 99*/
-select:-moz-focusring {
-  color: transparent !important;
-  text-shadow: 0 0 0 var(--white);
-}
-
-textarea {
-  resize: none;
-}
-
-ul {
-  list-style: none;
-}
-
-body {
-  font: 18px/1.5 "Open Sans", sans-serif;
-  background: var(--bodyColor);
-  color: var(--white);
-  margin: 1.5rem 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-
-/* FORM ELEMENTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.my-form h1 {
-  margin-bottom: 1.5rem;
-}
-
-.my-form li,
-.my-form .grid > *:not(:last-child) {
-  margin-bottom: 1.5rem;
-}
-
-.my-form select,
-.my-form input,
-.my-form textarea,
-.my-form button {
-  width: 100%;
-  line-height: 1.5;
-  padding: 15px 10px;
-  border: 1px solid var(--borderFormEls);
-  color: var(--white);
-  background: var(--bgFormEls);
-  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
-    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
-}
-
-.my-form textarea {
-  height: 170px;
-}
-
-.my-form ::placeholder {
-  color: inherit;
-  /*Fix opacity issue on Firefox*/
-  opacity: 1;
-}
-
-.my-form select:focus,
-.my-form input:focus,
-.my-form textarea:focus,
-.my-form button:enabled:hover,
-.my-form button:focus,
-.my-form input[type="checkbox"]:focus + label {
-  background: var(--bgFormElsFocus);
-}
-
-.my-form select:focus,
-.my-form input:focus,
-.my-form textarea:focus {
-  transform: scale(1.02);
-}
-
-.my-form *:required,
-.my-form select {
-  background-repeat: no-repeat;
-  background-position: center right 12px;
-  background-size: 15px 15px;
-}
-
-.my-form *:required {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
-}
-
-.my-form select {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
-}
-
-.my-form *:disabled {
-  cursor: default;
-  filter: blur(2px);
-}
-
-
-/* FORM BTNS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.my-form .required-msg {
-  display: none;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
-    no-repeat center left / 15px 15px;
-  padding-left: 20px;
-}
-
-.my-form .btn-grid {
-  position: relative;
-  overflow: hidden;
-  transition: filter 0.2s;
-}
-
-.my-form button {
-  font-weight: bold;
-}
-
-.my-form button > * {
-  display: inline-block;
-  width: 100%;
-  transition: transform 0.4s ease-in-out;
-}
-
-.my-form button .back {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-110%, -50%);
-}
-
-.my-form button:enabled:hover .back,
-.my-form button:focus .back {
-  transform: translate(-50%, -50%);
-}
-
-.my-form button:enabled:hover .front,
-.my-form button:focus .front {
-  transform: translateX(110%);
-}
-
-
-/* CUSTOM CHECKBOX
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.my-form input[type="checkbox"] {
-  position: absolute;
-  left: -9999px;
-}
-
-.my-form input[type="checkbox"] + label {
-  position: relative;
-  display: inline-block;
-  padding-left: 2rem;
-  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
-}
-
-.my-form input[type="checkbox"] + label::before,
-.my-form input[type="checkbox"] + label::after {
-  content: '';
-  position: absolute;
-}
-
-.my-form input[type="checkbox"] + label::before {
-  left: 0;
-  top: 6px;
-  width: 18px;
-  height: 18px;
-  border: 2px solid var(--white);
-}
-
-.my-form input[type="checkbox"]:checked + label::before {
-  background: var(--red);
-}
-
-.my-form input[type="checkbox"]:checked + label::after {
-  left: 7px;
-  top: 7px;
-  width: 6px;
-  height: 14px;
-  border-bottom: 2px solid var(--white);
-  border-right: 2px solid var(--white);
-  transform: rotate(45deg);
-}
-
-
-/* FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer {
-  font-size: 1rem;
-  text-align: right;
-  backface-visibility: hidden;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-footer span {
-  color: var(--red);
-}
-
-
-/* MQ
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (min-width: 600px) {
-  .my-form .grid {
-    display: grid;
-    grid-gap: 1.5rem;
-  }
-
-  .my-form .grid-2 {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .my-form .grid-3 {
-    grid-template-columns: auto auto auto;
-    align-items: center;
-  }
-
-  .my-form .grid > *:not(:last-child) {
-    margin-bottom: 0;
-  }
-
-  .my-form .required-msg {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 541px) {
-  .my-form input[type="checkbox"] + label::before {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .my-form input[type="checkbox"]:checked + label::after {
-    top: 3px;
-  }
-}
 
 </style>
 
@@ -315,8 +24,8 @@ footer span {
 
 
 
-<div class="body" >
-	<h1 class="text-5xl font-extrabold dark:text-black" style="color:black">
+<div class="body px-80" >
+	<h1 class="text-5xl font-extrabold dark:text-black " style="color:black">
 		Industry Information
 	</h1>
 
@@ -325,46 +34,136 @@ footer span {
 <br/>
 <br/>
 
-<form class="my-form">
-  <div class="container">
-    <h1>Get in touch!</h1>
-    <ul>
-     
-      <li>
-        <div class="grid grid-2">
-          <input type="text" placeholder="Name" required>  
-          <input type="text" placeholder="Location" required>
-        </div>
-      </li>
-      <li>
-        <div class="grid grid-2">
-          <input type="tel" placeholder="Phone">
-        </div>
-      </li>    
-      <li>
-        <textarea placeholder="Message"></textarea>
-      </li>   
-      <li>
-        <input type="checkbox" id="terms">
-        <label for="terms">I am sure i want to <a href="">send warning.</a></label>
-      </li>  
-      <li>
-        <div class="grid grid-3">
-          <div class="required-msg">REQUIRED FIELDS</div>
-          <button class="btn-grid bg-green-500 " type="submit" >
-            <span class="back">
-            </span>
-            <span class="front" >Send Warning</span>
-          </button>
-          
-        </div>
-      </li>    
-    </ul>
+<form class="px-80">
+	<div class="mb-6">
+		<label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Industry name</label>
+		<input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-600-500 focus:border-green-600-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-600-500 dark:focus:border-green-600-500 dark:shadow-sm-light" required="">
   </div>
+	<div class="mb-6">
+		<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Industry email</label>
+		<input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-600-500 focus:border-green-600-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-600-500 dark:focus:border-green-600-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required="">
+  </div>
+	<div class="mb-6">
+		<label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Industry code</label>
+		<input type="password" id="repeat-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-600-500 focus:border-green-600-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-600-500 dark:focus:border-green-600-500 dark:shadow-sm-light" required="">
+  </div>
+	<div class="flex items-start mb-6">
+		<div class="flex items-center h-5">
+			<input id="terms" type="checkbox" value="" class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-green-600-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600-600 dark:ring-offset-gray-800" required="">
+    </div>
+		<label for="terms" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+			I agree with the <a href="#" class="text-green-600-600 hover:underline dark:text-green-600-500">terms and conditions</a>
+		</label>
+	</div>
+	<label for="my-modal-2" class="btn bg-green-600 modal-button">SEND WARNING!</label>
+	
 </form>
 
+<br/>
+<br/>
+<br/>
+<br/>
 
+<div class="body px-80" >
+	<h1 class="text-4xl font-semibold dark:text-black text-4xl" style="color:black">
+		Nearby industries
+	</h1>
 
+</div>
+
+<br/>
+<br/>
+
+<div class="overflow-x-auto w-full px-20">
+	<table class="table w-full">
+		<!-- head -->
+		<thead>
+			<tr>
+				<th>
+					
+				</th>
+				<th>Name</th>
+				<th>About</th>
+				<th>Contact</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- row 1 -->
+			<tr>
+				<th>
+					
+				</th>
+				<td>
+					<div class="flex items-center space-x-3">
+						<div class="avatar">
+							<div class="mask mask-squircle w-12 h-12">
+								<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
+							</div>
+						</div>
+						<div>
+							<div class="font-bold">Victory Pipe Industries Pvt Ltd.</div>
+							<div class="text-sm opacity-50">United States</div>
+						</div>
+					</div>
+				</td>
+				<td>
+					One of the leading Manufacturers of Mild Steel (M.S) Galvanized Iron (G.I) Pipes, <br/>  Steel Tubes & Profiles
+					<br/>
+					<span class="badge badge-ghost badge-sm"> Support Team</span>
+				</td>
+				<td>xyz@gmail.com</td>
+				<th>
+					<button class="btn btn-ghost btn-xs">details</button>
+				</th>
+			</tr>
+			<!-- row 2 -->
+			<tr>
+				<th>
+					
+				</th>
+				<td>
+					<div class="flex items-center space-x-3">
+						<div class="avatar">
+							<div class="mask mask-squircle w-12 h-12">
+								<img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
+							</div>
+						</div>
+						<div>
+							<div class="font-bold">Elektro Control Industries (Pvt) Ltd.</div>
+							<div class="text-sm opacity-50">China</div>
+						</div>
+					</div>
+				</td>
+				<td>
+					An engineering solutions provider company specialized in design, development, integration and <br/> production of customized products
+					<br/>
+					<span class="badge badge-ghost badge-sm">Engineering</span>
+				</td>
+				<td>xyz@gmail.com</td>
+				<th>
+					<button class="btn btn-ghost btn-xs">details</button>
+				</th>
+			</tr>
+		</tbody>
+		
+		
+
+	</table>
+</div>
+
+<br/>
+<br/>
+<input type="checkbox" id="my-modal-2" class="modal-toggle">
+	<div class="modal">
+		<div class="modal-box">
+			<p>Are you sure you want to send warning to this industry?</p>
+			<div class="modal-action">
+				<label for="my-modal-2" class="btn  bg-green-600">Yes</label>
+				<label for="my-modal-2" class="btn  bg-green-600">No</label>
+			</div>
+		</div>
+	</div>
 
 <div class="ContactCards">
 	<Footer />

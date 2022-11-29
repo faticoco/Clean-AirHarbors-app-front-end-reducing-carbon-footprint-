@@ -92,13 +92,47 @@
 		</li>
 	</ul>
 
-	<div class="my-10">
-		<button class="w-full rounded-full bg-green-500 p-5 hover:bg-green-800 " style="color:white">Submit</button>
+	<div class="my-10  ">
+		<label for="my-modal-2" class="btn bg-green-600 modal-button  content-center">Submit</label>
 	</div>
 	
 </div>
 
-<div class="ContactCards">
+
+
+
+
+
+
+<input type="checkbox" id="my-modal-2" class="modal-toggle">
+	<div class="modal">
+		<h3 class="font-bold text-lg">Done tasks Submitted!</h3>
+		<div class="modal-box">
+			<p>Are you sure you want to select this plan?</p>
+			<div class="modal-action">
+				<label for="my-modal-2" class="btn  bg-green-600 ">Yes</label>
+				<label for="my-modal-2" class="btn  bg-green-600 ">No</label>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="ContactCards">
 	<Footer />
 </div>
 

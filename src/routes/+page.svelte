@@ -57,7 +57,9 @@
 						</div>
 					</div>
 					<div class="my-10">
-						<button class="w-full rounded-full bg-black p-5 hover:bg-green-800 " style="color:white">Login</button>
+						<div class="my-10 px-25">
+							<label for="my-modal-2" class="btn bg-green-600 modal-button">Login</label>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -71,29 +73,23 @@
 	</div>
 </div>
 
-<!-- The button to open modal -->
-<label for="my-modal" class="btn">open modal</label>
 
-<!-- Put this part before </body> tag -->
-<input type="checkbox" id="my-modal" class="modal-toggle" />
-<div class="modal">
-  <div class="modal-box">
-    <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-    <div class="modal-action">
-      <label for="my-modal" class="btn">Yay!</label>
-    </div>
-  </div>
-</div>
 
-<label for="my-modal-2" class="btn btn-primary modal-button">open modal</label> 
-<input type="checkbox" id="my-modal-2" class="modal-toggle"> 
-<div class="modal">
-  <div class="modal-box">
-    <p>Enim dolorem dolorum omnis atque necessitatibus. Consequatur aut adipisci qui iusto illo eaque. Consequatur repudiandae et. Nulla ea quasi eligendi. Saepe velit autem minima.</p> 
-    <div class="modal-action">
-      <label for="my-modal-2" class="btn btn-primary">Accept</label> 
-      <label for="my-modal-2" class="btn">Close</label>
-    </div>
-  </div>
-</div>
+
+<input type="checkbox" id="my-modal-2" class="modal-toggle">
+	<div class="modal">
+		<h3 class="font-bold text-lg">Logged in!</h3>
+		<div class="modal-box">
+			<p>Do you want to save your password?</p>
+			<div class="modal-action">
+				<label for="my-modal-2" class="btn  bg-green-600 ">Yes</label>
+				<label for="my-modal-2" class="btn  bg-green-600 ">No</label>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+

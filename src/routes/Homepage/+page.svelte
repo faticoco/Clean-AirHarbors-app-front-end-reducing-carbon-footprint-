@@ -17,15 +17,13 @@
 	</ul>
 </div>
 
-<div class="hero min-h-screen bg-white"  style="src:air;">
-<div class="hero-content text-center">
-		<div class="max-w-md ">
-			<h1 class="text-5xl font-bold">Clean Hair Harbour</h1>
-			<p class="py-6">
-				Clean Air Harbors. Providing the opportunity to make the environment cleaner, greener and a healthier environment to live in. Join us in this journey now! 
-				
-			</p>
-			<button class="btn bg-green-500">Get Started</button>
+<div class="hero min-h-screen" style="background-image: url(https://images.unsplash.com/photo-1604182049604-4a9d97a854d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGdyZWVuJTIwZm9yZXN0fGVufDB8fDB8fA%3D%3D&w=1000&q=80);">
+	<div class="hero-overlay bg-opacity-60"></div>
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md">
+			<h1 class="mb-5 text-5xl font-bold"> Clean Air Harbors</h1>
+			<p class="mb-5">Leading to cleaner and greener environment.</p>
+			
 		</div>
 	</div>
 </div>
@@ -67,6 +65,7 @@
 		</div>
 	</div>
 </div>
+
 
 <br />
 <br />

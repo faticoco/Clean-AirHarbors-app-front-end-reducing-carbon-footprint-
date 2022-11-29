@@ -38,7 +38,7 @@
 					</div>
 
 					<div>
-						<label class="mb-2.5 block font-extrabold" for="email">Email</label>
+						<label class="mb-2.5 block font-extrabold" for="email">Phone</label>
 						<input
 							type="Phone number"
 							id="Phone number"
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 					<div class="my-10">
-						<button class="w-full rounded-full bg-black p-5 hover:bg-green-800 " style="color:white">Sign Up</button>
+						<label for="my-modal-2" class="btn bg-green-600 modal-button">Sign up</label>
 					</div>
 				</form>
 			</div>
@@ -82,3 +82,16 @@
 		/>
 	</div>
 </div>
+
+
+<input type="checkbox" id="my-modal-2" class="modal-toggle">
+	<div class="modal">
+		<h3 class="font-bold text-lg">Account Created!</h3>
+		<div class="modal-box">
+			<p>Do you want to save your password?</p>
+			<div class="modal-action">
+				<label for="my-modal-2" class="btn  bg-green-600">Yes</label>
+				<label for="my-modal-2" class="btn  bg-green-600">No</label>
+			</div>
+		</div>
+	</div>
