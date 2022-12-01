@@ -10,7 +10,7 @@
 	<div class="h-screen w-1/2 bg-white">
 		<div class="mx-auto flex h-full w-2/3 flex-col justify-center text-black xl:w-1/2">
 			<div>
-				<p class="text-2xl">Login|</p>
+				<b class="text-2xl">Login |</b>
 				<p>please login to continue|</p>
 			</div>
 			<div class="my-6">
@@ -58,7 +58,9 @@
 					</div>
 					<div class="my-10">
 						<div class="my-10 px-25">
-							<label for="my-modal-2" class="btn bg-green-600 modal-button">Login</label>
+							
+								<label for="my-modal-2" class="btn bg-green-600 modal-button">Login</label>
+						
 						</div>
 					</div>
 				</form>
@@ -82,8 +84,12 @@
 		<div class="modal-box">
 			<p>Do you want to save your password?</p>
 			<div class="modal-action">
-				<label for="my-modal-2" class="btn  bg-green-600 ">Yes</label>
-				<label for="my-modal-2" class="btn  bg-green-600 ">No</label>
+				<a href="http://127.0.0.1:5174/Homepage" >
+					<label for="my-modal-2" class="btn  bg-green-600">Yes</label>
+				</a>
+				<a href="http://127.0.0.1:5174/Homepage" >
+					<label for="my-modal-2" class="btn  bg-green-600">No</label>
+				</a>
 			</div>
 		</div>
 	</div>

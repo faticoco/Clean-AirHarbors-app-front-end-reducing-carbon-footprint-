@@ -4,7 +4,8 @@
     "\\src",
     "\\src\\lib",
     "\\src\\lib\\assets",
-    "\\src\\routes"
+    "\\src\\routes",
+    "\\src\\routes\\Carboninfo"
   ],
   "PreviewInSolutionExplorer": false
 }
