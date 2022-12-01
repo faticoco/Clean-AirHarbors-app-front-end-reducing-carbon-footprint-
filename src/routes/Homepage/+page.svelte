@@ -89,7 +89,10 @@
 						Made to remind you of your daily routine tasks <br />
 						to reduce your carbon footprint
 					</p>
-					<button class="btn bg-green-500" >Preview</button>
+
+					<label for="my-modal-5" class="btn bg-green-500">Preview</label>
+			
+					
 				</div>
 			</div>
 		</div>
@@ -161,6 +164,23 @@
 
 			</div>
 		</ul>
+	</div>
+</div>
+
+
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal-5" class="modal-toggle" />
+<div class="modal">
+	<div class="modal-box w-11/12 max-w-5xl">
+		<h3 class="font-bold text-lg">A gentle reminder for the day!</h3>
+		<p class="py-4">
+
+			Avoid meat today for your meals and eat local foods :)
+		</p>
+		<div class="modal-action">
+			<label for="my-modal-5" class="btn">Yay!</label>
+		</div>
 	</div>
 </div>
 

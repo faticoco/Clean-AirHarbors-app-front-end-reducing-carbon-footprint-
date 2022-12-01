@@ -115,7 +115,7 @@
 			<div class="modal">
 				<h3 class="font-bold text-lg">Done tasks Submitted!</h3>
 				<div class="modal-box">
-					<p>Are you sure you want to select this plan?</p>
+					<p>Are you sure you want to submit these tasks as done?</p>
 					<div class="modal-action">
 						<label for="my-modal-2" class="btn  bg-green-600 ">Yes</label>
 						<label for="my-modal-2" class="btn  bg-green-600 ">No</label>
