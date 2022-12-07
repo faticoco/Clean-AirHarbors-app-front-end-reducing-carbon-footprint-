@@ -2,10 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\lib",
-    "\\src\\lib\\assets",
     "\\src\\routes",
-    "\\src\\routes\\Carboninfo"
+    "\\src\\routes\\Carboninfo",
+    "\\src\\routes\\graph",
+    "\\src\\routes\\Login",
+    "\\src\\routes\\Reductionplan",
+    "\\src\\routes\\Rewards",
+    "\\src\\routes\\Signup",
+    "\\src\\routes\\Subscriptionpage"
   ],
+  "SelectedNode": "\\src\\routes\\Carboninfo\\+page.svelte",
   "PreviewInSolutionExplorer": false
 }
